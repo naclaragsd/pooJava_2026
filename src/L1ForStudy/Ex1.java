@@ -1,5 +1,7 @@
 package L1ForStudy;
 
+//Escreva um programa que leia um número e o exiba na tela
+
 import java.util.Scanner;
 
 public class Ex1 {
