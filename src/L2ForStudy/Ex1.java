@@ -4,12 +4,9 @@ package L2ForStudy;
  instanciar um objeto dessa classe e exibir os valores dos atributos. */
 
 public class Ex1 {
-public static void main(String[] svg) {
+public static void main(String[] args) {
 
-        Carro fusca = new Carro();
-        fusca.marca = "Beetle";
-        fusca.modelo = "Oval";
-        fusca.ano = 1990;
+        Carro fusca = new Carro("beetle", "Oval", 1990);
 
         System.out.printf("\n--- fusca ---\n");
         System.out.printf("marca: %s \nmodelo: %s \nano: %d\n",
