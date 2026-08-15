@@ -14,7 +14,7 @@ public class Produto {
     public void setPreco(double novoPreco) {
         if (novoPreco > 0) { // guardião: só aceita preço positivo
             this.preco = novoPreco;
-            System.out.printf("\nNovo preço: %f",novoPreco);
+            System.out.printf("\nNovo preço: %f\n",novoPreco);
         }else{
             System.out.printf("\nAlteração recusada!"); // recusa e mantém o valor antigo
         }
@@ -31,5 +31,10 @@ public class Produto {
         }else{
             System.out.printf("\nAlteração recusada!\n");
         }
+    }
+
+    public void aplicarDesconto(double percentual){
+        double reducao = this.preco * (percentual/100);
+        this.preco = this.preco - reducao;
     }
 }
