@@ -20,4 +20,16 @@ public class Dispositivo {
         this.comodo = c;
     }
 
+    public void setLigado(boolean ligado){
+        this.ligado = ligado;
+    }
+
+    public String getNome(){
+        return this.nome;
+    }
+
+    public Comodo getComodo(){
+        return this.comodo;
+    }
+
 }
