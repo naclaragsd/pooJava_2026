@@ -37,5 +37,8 @@ public class Comodo {
         }
         return false;
     }
+    public String getNome(){
+        return this.nome;
+    }
 
 }
