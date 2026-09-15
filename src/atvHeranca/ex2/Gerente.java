@@ -7,4 +7,10 @@ public class Gerente extends Funcionario{
         super(nome, salario);
         this.fone=fone;
     }
+
+    @Override
+    public void exibirInformacoes(){
+        super.exibirInformacoes();
+        System.out.println("fone: "+fone);
+    }
 }
