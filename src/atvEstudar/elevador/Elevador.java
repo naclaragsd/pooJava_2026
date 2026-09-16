@@ -1,4 +1,4 @@
-package atvEstudar;
+package atvEstudar.elevador;
 
 public class Elevador {
     private String nome;

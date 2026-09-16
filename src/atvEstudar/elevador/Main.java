@@ -1,4 +1,4 @@
-package atvEstudar;
+package atvEstudar.elevador;
 
 public class Main {
     public static void main(String[] args){

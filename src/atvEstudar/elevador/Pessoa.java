@@ -1,4 +1,4 @@
-package atvEstudar;
+package atvEstudar.elevador;
 
 public class Pessoa {
     private String nome;
