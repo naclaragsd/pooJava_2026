@@ -14,6 +14,6 @@ public class Hospital {
     }
 
     public void contratarMedico(Medico medico){
-        this.medicos.add(Medico);
+      //  this.medicos.add(Medico);
     }
 }
