@@ -1,4 +1,4 @@
-package abstracao.ex5;
+package abstracao.abstracao_ex5;
 
 public class Violao extends InstrumentoMusical {
     @Override
